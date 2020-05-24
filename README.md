@@ -20,12 +20,45 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
+### Dependencies
+
+To set up your python environment to run the code in this repository, follow the instructions below.
+
+1. Create (and activate) a new environment with Python 3.6.
+
+	- __Linux__ or __Mac__: 
+	```bash
+	conda create --name bananabrain python=3.6
+	source activate bananabrain
+	```
+	- __Windows__: 
+	```bash
+	conda create --name bananabrain python=3.6 
+	activate bananabrain
+	```
+	
+2. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
+	- Next, install the **classic control** environment group by following the instructions [here](https://github.com/openai/gym#classic-control).
+	- Then, install the **box2d** environment group by following the instructions [here](https://github.com/openai/gym#box2d).
+	
+3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+```bash
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+pip install .
+```
+
+4. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `bananabrain` environment.  
+```bash
+python -m ipykernel install --user --name bananabrain --display-name "bananabrain"
+```
+
+5. Before running code in a notebook, change the kernel to match the `bananabrain` environment by using the drop-down `Kernel` menu. 
+
+
 ### Installation
 
-1. Install the Unity ML-agent following the instructions:
-[click here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector).
-
-2. Clone the repository and Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
