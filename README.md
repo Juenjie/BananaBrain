@@ -43,8 +43,8 @@ To set up your python environment to run the code in this repository, follow the
 	
 3. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
 ```bash
-git clone https://github.com/udacity/deep-reinforcement-learning.git
-cd deep-reinforcement-learning/python
+git clone https://github.com/Juenjie/BananaBrain.git
+cd BananaBrain/python
 pip install .
 ```
 
@@ -56,7 +56,7 @@ python -m ipykernel install --user --name bananabrain --display-name "bananabrai
 5. Before running code in a notebook, change the kernel to match the `bananabrain` environment by using the drop-down `Kernel` menu. 
 
 
-### Installation
+### Installation of the unity environment
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
